@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#whatsapp{
+    display: flex;
+    justify-content: center;
+   }
+   #whatsapp a{
+     justify-content: center;
+     border: none;
+     text-decoration: none;
+     text-align: center;
+     padding: 5px;
+   }
+ 
+   #whatsapp a img{
+     width: 25px;
+     height: 25px;
+   }
+ 
+   #whatsapp a i{
+     font-size: 25px;
+   }
+   #whatsapp a #linkedin{
+    background-color: white;
+   }
+   #whatsapp a #github{
+    color: white;
+   }
+
+   #whatsapp a #insta{
+       color: rgb(245, 21, 40);
+       background-color: white;
+       border-radius: 20%;
+   }
+
+#footer{
+   width: 100%;
+   height: auto;
+   background-color: black;
+  text-align: center;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#footer h4,h5{
+    color: white;
+    margin: 5px;
+}
+#footer h6{
+    align-items: right;
+}
+#footer #links a{
+    text-decoration: none;
+    cursor: pointer;
+    margin:10px;
+    font-size: medium;
+    color: rgb(229, 255, 0);
+}
+
+#footer h5{
+    font-size:small;
+}
+
+#links a:hover{
+color: #1111;
+}

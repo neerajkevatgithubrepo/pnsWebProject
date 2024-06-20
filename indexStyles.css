@@ -1,0 +1,230 @@
+/* General styles */
+body {
+    display: block;
+    background-image: linear-gradient(to bottom, rgba(76, 66, 163, 0.595), rgb(29, 176, 244));
+  }
+
+  #contant{
+    display: none;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+#footer{
+  position: sticky;
+  bottom: 0%;
+}
+  @keyframes woldRoted{
+    0%{
+        transform: rotate(0deg);
+        margin-left: 20%;
+    }
+    100%{
+        transform: rotate(180deg);
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+  }
+
+  .wold-map img{
+    position: absolute;
+    justify-self: center;
+    z-index: -1;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    animation: woldRoted 30s linear infinite;
+
+  }
+  /* Navigation bar styles */
+  .navbar {
+    background-color:transparent;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: sticky;
+  }
+  .logo{
+    display: inline-flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .logo h1 {
+    margin-left: 5px;
+    
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+   background-color: #161616;
+   border-radius: 10px;
+   padding: 0px 7px;
+  }
+  
+  .menu li a:hover {
+    color: #ffd700;
+    background-color: #0b2f0b;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  /* Main content styles */
+ 
+  .main-content {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 50px;
+    text-align: center;
+  }
+  
+  .founder {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+  }
+  
+  .founder-info {
+    text-align: center;
+    color: #fcfcf8;
+    font-size: 20px;
+    font-weight: 700px;
+    text-shadow: 1px 2px #161616;
+  }
+  .founder-img {
+    width: 150px;
+    border-radius: 5px;
+    margin-right: 20px;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+
+  .heading h2 a{
+    font-size: 40px;
+    color: #fff;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    text-shadow: 5px 3px #1c540e;
+    padding: 10px;
+  }
+  
+  .heading:hover {
+    transform: translateY(-10px);
+  }
+  
+  @media screen and (max-width: 600px){
+
+       *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+       }
+      
+       body{
+        background-size: 100%;
+        background-image: none;
+        background-image: linear-gradient(to bottom, rgba(76, 66, 163, 0.595), rgb(29, 176, 244));
+       }
+
+
+       @keyframes woldRoted{
+        0%{
+            transform: rotate(0deg);
+            margin-left: 25%;
+            margin-top: 35%;
+        }
+        100%{
+            transform: rotate(180deg);
+            margin-left: 25%;
+            margin-top: 35%;
+        }
+      }
+       .wold-map img{
+        width: 55%;
+        height: auto;
+        margin-top: 20%;
+        animation: woldRoted 60s linear infinite;
+       }
+
+       .navbar{
+        padding: 0px;
+        width:100wh;
+        margin:2%;
+        display: flex;
+        justify-content: space-between;
+       }
+
+       .logo{
+         display:flex;
+         width: 80%;
+       }
+
+       .navbar .menu{
+        display:block;
+        font-size: small;
+        width: 20%;
+       }
+      .menu .help{
+        display: none;
+      }
+      
+     .menu li a{
+      text-align: left;
+      
+     }
+
+    .main-content{
+      width:80wh;
+      height:90vh;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10%;
+    }
+
+    .founder-info{
+        width: 90%;
+    }
+
+    .founder img{
+      width: 100px;
+      margin-right: 0px;
+    }
+
+     .heading{
+      width: 100%;
+      display: flex;
+     }
+
+     .heading h2{
+      width: 100%;
+      display:flex;
+    }
+
+    .heading h2 a{
+      font-size: medium;
+    }
+  }
+  /* Footer styles */
+  

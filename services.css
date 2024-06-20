@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html {
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .plan-packages-section {
+        width: 90%;
+        margin: auto;
+    }
+
+    .plan-packages-card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        margin-left: 25%;
+    }
+
+    .package-thought {
+        padding: 20px;
+    }
+
+    .package-thought h1 {
+        font-size: 20px;
+    }
+
+    .package-thought h2 {
+        font-size: 16px;
+        color: aliceblue;
+    }
+
+    .plan-package-card {
+        margin: 5px;
+        margin-left: -23%;
+    }
+
+    .package-card-header h2,
+    .package-card-header p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .package-card-body {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .package-card-body del {
+        font-size: 16px;
+    }
+
+    .package-card-body strong {
+        font-size: 20px;
+    }
+
+    .plan-package-card ul li {
+        padding: 5px 10px;
+        font-size: 14px;
+        margin-left: 15%;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+    /* Adjustments for larger screens */
+}
+
+body {
+    margin: auto;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+#web-developing-page {
+    display: grid;
+    gap: 20px;
+}
+
+.plan-packages-section {
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url("web-bg-1.jfif");
+    background-size: cover;
+    padding: 20px;
+}
+
+.plan-packages-section h1 {
+    color: rgb(253, 236, 8);
+    text-align: center;
+    font-size: 36px;
+}
+
+.package-thought h2{
+    text-align: center;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.plan-packages-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plan-package-card {
+
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px 1px white;
+    padding: 20px;
+}
+
+.package-card-header h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.package-card-header p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.package-card-body {
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: rgb(249, 218, 95);
+}
+
+.package-card-body del {
+    font-size: 15px;
+}
+
+.package-card-body strong {
+    font-size: 20px;
+    color: rgb(252, 229, 137);
+}
+
+.plan-package-card ul {
+    padding: 20px 0;
+    color: rgb(245, 244, 240);
+}
+
+.plan-package-card ul li {
+    padding: 5px 0;
+    font-size: 16px;
+    margin-left: 15%;
+    color: rgb(245, 244, 240);
+}
